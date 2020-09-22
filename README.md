@@ -29,9 +29,9 @@ This is an example of one of the comments posted by the user on myanimelist.net.
 >- Likes genre Fantasy, Supernatural, Action, Adventure
 
 Death note has 37 episodes and Steins Gate has 25 episodes in total. This implicitly says that the user likes animes which are short in number. We will have a feature based on the number of episodes the anime has. Both falls under thriller genre. So we can recommend shows which are under 50 episodes and falls under a thriller genre. The user also likes action, adventure, fantasy and supernatural genres. So we can recommend anime which falls under this genre and they have less than 50 episodes.
-This is an example of *Content Based filtering*. These features are explicitly based on the users preference.
+This is an example of **Content Based filtering**. These recommendations are done based on the users preference.
 
-What if we find an user m who likes anime such as  `Steins Gate` , `Death Note` , `Another` and likes genre such as thriller , action and horror ? We can recommend all the shows which are liked by user m to our user because they have similar show and genre preference. This is an example of *Collobrative filtering*. These features are based on other users preference.
+What if we find an user m who has rated anime such as  `Steins Gate` , `Death Note` , `Rainbow: Nisha Rokubou no Shichinin` highly and likes genre such as `thriller` , `action` and `horror` ? We can recommend `Rainbow: Nisha Rokubou no Shichinin` show to our user because both the users like `Steins Gate` and `Death Note` and there is a high possibility that our user may like `Rainbow: Nisha Rokubou no Shichinin` adding the fact that it also falls under `thriller` genre. This is an example of **Collobrative filtering**. The recommendation is done  based on other users preference.
 
 ## Objective
 The main objective of this project is to recommend similar anime to the end users by using techniques like Collobrative filtering. Since we dont have that much of an information about the user or anime ,solving this problem using Content Based filtering is a little bit difficult.
