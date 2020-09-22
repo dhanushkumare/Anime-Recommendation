@@ -2,7 +2,7 @@
 A Recommendation system specifically for anime nerds. 
 
 
-(https://www.kaggle.com/CooperUnion/anime-recommendations-database)
+[Dataset downloaded from Kaggle](https://www.kaggle.com/CooperUnion/anime-recommendations-database)
 
 ## Problem Statement:
 >I'm in need of some anime series recommendations that are under 100 episodes. I'm fairly new to anime so I don't know the exact genre/type I'm looking for, although I have >enjoyed all that i have watched so far.
