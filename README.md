@@ -1,5 +1,5 @@
 # Anime-Recommendation
-A Recommendation system specifically for anime. 
+A Recommendation system specifically for anime nerds. 
 
 
 (https://www.kaggle.com/CooperUnion/anime-recommendations-database)
@@ -20,11 +20,7 @@ A Recommendation system specifically for anime.
 >- Too much ecchi (Enjoyed Elfin Lied)
 >Suggestions much appreciated :)
 
-
-
-
-
-
+This is an example of one of the comments posted by the user on (myanimelist.net). Why do people rely on others to choose their movies/shows? They assume that there might be a group of people who might have similar interests to them and they can suggest some shows the user may like. Instead of posting comments like these everytime and waiting for someones response seems like a tedious task. If we can find the similarities based on the users behavioural pattern and recommend shows based on the users interest the user may like our product and they might suggest to their friends/families. So from a pure business perspective we need to retain the existing customers and add customers to our product to increase our revenue.
 
 
 The main objective of this project is to recommend similar anime to the end users by using techniques like Collobrative filtering. Since we dont have that much of an information about the user or anime ,solving this problem using Content Based filtering is a little bit difficult.
