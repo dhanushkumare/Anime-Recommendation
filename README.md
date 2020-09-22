@@ -40,7 +40,7 @@ The main objective of this project is to  recommend similar anime to the end use
 When we have no initial data about the user/shows then how can we recommend new shows to the user without the data. Such a problem is called a cold start problem
 In order to handle the cold start problem we  use techniques in  Content Based filtering such as
 
-- generate new user based features such as (Location, Watching device(Phone , Desktop , Tablet) , ask users while signing in to pick up 3 genres etc...)
-- generate new anime based features such as (No of episodes , Release year , avg rating , isdub available etc...)
-- we can recommend the shows which have a global high rating initially and then learn the behaviour of the users over a period of time.
+- Generate new user based features such as (Location, Watching device(Phone , Desktop , Tablet) , ask users while signing in to pick up 3 genres etc...)
+- Generate new anime based features such as (No of episodes , Release year , avg rating , isdub available etc...)
+- We can recommend the shows which have a global high rating initially and then learn the behaviour of the users over a period of time.
 
