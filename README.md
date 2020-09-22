@@ -33,14 +33,16 @@ This is an example of **Content Based filtering**. These recommendations are don
 What if we find an user m who has rated anime such as  `Steins Gate` , `Death Note` , `Rainbow: Nisha Rokubou no Shichinin` highly and likes genre such as `thriller` , `action` and `horror` ? We can recommend `Rainbow: Nisha Rokubou no Shichinin` show to our user because both the users like `Steins Gate` and `Death Note` and there is a high possibility that our user may like `Rainbow: Nisha Rokubou no Shichinin` adding the fact that it also falls under `thriller` genre. This is an example of **Collobrative filtering**. The recommendation is done  based on other users preference.
 
 ## Objective:
-The main objective of this project is to  recommend similar anime to the end users by using techniques like Collobrative filtering. Since we dont have that much of an information about the user or anime ,solving this problem using Content Based filtering is a little bit difficult. There are no constraints such as low latency here as the recommendations are not instant.
+The main objective of this project is to  recommend similar anime to the end users by predicting what rating the user might have given to the unseen shows by using techniques like Collobrative filtering or Content Based filtering. There are no constraints such as low latency here as the recommendations are not instant.
 
 
 ## Constraints:
-When we have no initial data about the user/shows then how can we recommend new shows to the user without the data. Such a problem is called a cold start problem
+When we have no initial data about the user/shows then how can we recommend new shows to the user without the data? Such a problem is called a cold start problem.
 In order to handle the cold start problem we  use techniques in  Content Based filtering such as
 
 - Generate new user based features such as (Location, Watching device(Phone , Desktop , Tablet) , ask users while signing in to pick up 3 genres etc...)
 - Generate new anime based features such as (No of episodes , Release year , avg rating , isdub available etc...)
 - We can recommend the shows which have a global high rating initially and then learn the behaviour of the users over a period of time.
+
+ Since we dont have that much of an information about the user or anime in our data ,solving this problem using Content Based filtering is a  bit difficult.
 
